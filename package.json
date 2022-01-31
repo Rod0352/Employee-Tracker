@@ -1,21 +1,34 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cli",
   "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rod0352/Employee-Tracker.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "CMS",
+    "MySQL"
+  ],
+  "author": "Rodney Scott",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/Rod0352/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/Rod0352/Employee-Tracker#readme"
+  "homepage": "https://github.com/Rod0352/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^14.3.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {}
 }
